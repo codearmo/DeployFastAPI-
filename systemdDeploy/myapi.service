@@ -7,8 +7,11 @@ User=admin
 Group=www-data
 WorkingDirectory=/var/www/DeployFastAPI-
 Environment="PATH=/var/www/DeployFastAPI-/venv/bin"
+ExecStartPre=/bin/rm -f /tmp/uvicorn.sock
 ExecStart=/var/www/DeployFastAPI-/systemdDeploy/start.sh
 Restart=always
+RestartSec=5
 
 [Install]
 WantedBy=multi-user.target
+
