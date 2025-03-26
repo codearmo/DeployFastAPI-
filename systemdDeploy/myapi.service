@@ -7,8 +7,7 @@ User=admin
 Group=www-data
 WorkingDirectory=/var/www/DeployFastAPI-
 Environment="PATH=/var/www/DeployFastAPI-/venv/bin"
-ExecStart=/var/www/DeployFastAPI-/start_app.sh
-
+ExecStart=/var/www/DeployFastAPI-/systemdDeploy/start.sh
 Restart=always
 
 [Install]
