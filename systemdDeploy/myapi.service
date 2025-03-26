@@ -1,0 +1,15 @@
+[Unit]
+Description Fast API Deploy Example
+After=network.target
+
+[Service]
+User=admin
+Group=www-data
+WorkingDirectory=/var/www/DeployFastAPI-
+Environment="PATH=/var/www/DeployFastAPI-/venv/bin"
+ExecStart=/var/www/DeployFastAPI-/start_app.sh
+
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
