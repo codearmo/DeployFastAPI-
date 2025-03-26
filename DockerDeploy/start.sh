@@ -5,7 +5,7 @@ IMAGE_NAME=myapi
 CONTAINER_NAME=myapi-app
 
 # Build the Docker image
-docker build -f fastapi.Dockerfile -t $IMAGE_NAME ..
+docker build -f DockerDeploy/fastapi.Dockerfile -t $IMAGE_NAME .
 
 # Stop and remove any existing container with the same name
 docker rm -f $CONTAINER_NAME 2>/dev/null || true
@@ -16,3 +16,5 @@ docker run -d \
   --restart always \
   -p 8000:8000 \
   $IMAGE_NAME
+
+

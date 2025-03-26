@@ -1,6 +1,15 @@
-# DeployFastAPI - Minimal FastAPI App
+# 🚀 DeployFastAPI - Minimal FastAPI App for Deployment Demos
 
-This is a minimal FastAPI app ready for deployment or development testing.
+This is a minimal FastAPI app designed for deployment testing, tutorials, and learning workflows using **Docker**, **systemd**, and **Nginx** on a Linux server.
+
+---
+
+## 📘 Full Deployment Guide
+
+👉 **Read the full guide on how to deploy this FastAPI app with Nginx on a Linux server:**  
+🔗 [Ultimate Guide to Deploying FastAPI with Nginx](https://www.codearmo.com/python-tutorial/ultimate-guide-deploy-fastapi-app-nginx-linux)
+
+---
 
 ## 🔧 Setup Instructions
 
@@ -9,12 +18,3 @@ This is a minimal FastAPI app ready for deployment or development testing.
    git clone git@github.com:codearmo/DeployFastAPI-.git
    cd DeployFastAPI-
 
-
-
-✅ Full Systemd Deployment Workflow for FastAPI
-
-Name it something like myapi.service
-
-Explain each section ([Unit], [Service], [Install])
-
-🔐 Set Up a Virtual Environment (if not done already)
