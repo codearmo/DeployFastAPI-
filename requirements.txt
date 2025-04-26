@@ -2,7 +2,7 @@ annotated-types==0.7.0
 anyio==4.9.0
 click==8.1.8
 fastapi==0.115.12
-h11==0.14.0
+h11>=0.14.1
 httptools==0.6.4
 idna==3.10
 pydantic==2.10.6
@@ -16,4 +16,4 @@ uvicorn==0.34.0
 uvloop==0.21.0
 watchfiles==1.0.4
 websockets==15.0.1
-gunicorn
+gunicorn==21.2.0
